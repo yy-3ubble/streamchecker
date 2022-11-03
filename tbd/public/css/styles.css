@@ -1,0 +1,15 @@
+a.icon-hover:hover {
+    position: relative;
+    text-decoration: none;
+}
+
+a.icon-hover img {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 25px;
+}
+
+a.icon-hover:hover img {
+    display: block;
+}
